@@ -1,0 +1,15 @@
+.buttonContainer {
+    button {
+        cursor: pointer;
+        color: #fff;
+        background: linear-gradient(180deg, #4CD3D8, #03779C);
+        padding: 20px 40px;
+        border-radius: 100px;
+        border-width: 0px;
+        transition: all 350ms ease-in;
+        &:hover {
+            color: #ccc;
+
+        }
+    }
+}

@@ -1,0 +1,18 @@
+@import "../../../scss/fontUtility";
+.heroCard {
+  > .subscriberContainer {
+    font-size: 36px;
+    font-weight: 700;
+    @include font_color(title);
+    > span {
+      font-weight: 900;
+      color: #017399;
+    }
+  }
+  .textContainer {
+    width: min-content;
+    font-size: 18px;
+    font-weight: 600;
+    @include font_color();
+  }
+}

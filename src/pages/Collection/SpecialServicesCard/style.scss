@@ -1,0 +1,27 @@
+@import "../../../scss/fontUtility";
+.specialServicesCard  {
+    > .imgContainer {
+        width: fit-content;
+
+       
+    }
+
+    > .title{
+        @include font_color(title);
+        font-size: 20px;
+        font-weight: bold;
+        margin:10px 0;
+        
+
+    }
+    > .desc {
+        @include font_color();
+        font-size: 12px;
+        line-height: 2;
+        width: 200px;
+        margin-bottom: 15px;
+
+
+
+    }
+}

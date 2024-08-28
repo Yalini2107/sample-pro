@@ -1,0 +1,29 @@
+@import "../../../scss/_fontUtility.scss";
+.footerCard{
+    > .titleContainer {
+        @include font_color(title);
+        font-size: 16px;
+        font-weight: 700;
+        margin: 150px 0 20px 0;
+       
+    }
+    > .desc{
+        padding-right: 30px;
+        line-height: 3;
+        cursor: pointer;
+        > ul{
+            > li{
+                list-style: none;    
+            }
+        }
+    }
+    > .ImageContainer{
+        margin-top: 20px;
+        display: flex;
+        gap: 8px;
+        cursor: pointer;
+      
+    }
+   
+
+}

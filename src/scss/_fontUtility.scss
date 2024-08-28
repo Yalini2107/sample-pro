@@ -1,0 +1,12 @@
+@mixin font_color($type: "text") {
+    @if ($type == text) {
+      color: #c4c4c4;
+    } @else if ($type == title) {
+      color: #242527;
+    } @else if ($type == spl) {
+      background: linear-gradient(90.29deg, #50d9db 0.2%, #007299 99.8%);
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+    }
+  }
